@@ -1,0 +1,13 @@
+<div class="container">
+<h2>This is start of parent component</h2>
+<app-inner-child [dataFromParent]="parentData" (dataEvent)="fetchDatafromChild($event)"></app-inner-child>
+
+<p>Data from innerChild :<b>{{childData}}</b></p>
+<h2>This is end of parent component</h2>
+</div>
+
+
+<div class="container">
+    <app-outer-child [dataFromParent2]="parentData2"></app-outer-child>
+</div>
+

@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="navbar-item">
+          <a class="nav-link active" routerLink="">Home</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="dept">Department</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" (click)="onClickOfAdmsn()">Admission</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" (click)="onClickOfStud()">Student Section</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="staff">Staff Section</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="login">Login</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="commu">Parent-child commu.</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="compA">CompA</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="compB">CompB</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="exam">Exam</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="placements">Placements</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="parent">Parent-child</a>
+        </li>
+
+        <li class="navbar-item">
+          <a class="nav-link" routerLink="third-paty-lia">PrimeNG</a>
+        </li>
+      </ul>
+  </div>
+
+</nav>
+
+<div class="container">
+<router-outlet></router-outlet>
+</div>
